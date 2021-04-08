@@ -27,7 +27,7 @@
   },
   "scripts": {
     "start": "npm run build:styles && react-scripts start",
-    "build": "react-scripts build",
+    "build": "npm run build:styles && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "npx eslint --ext .jsx src/",
