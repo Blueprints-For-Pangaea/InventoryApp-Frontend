@@ -26,7 +26,7 @@
     "yup": "^0.29.3"
   },
   "scripts": {
-    "start": "yarn build:styles && react-scripts start",
+    "start": "npm run build:styles && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
